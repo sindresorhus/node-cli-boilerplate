@@ -13,7 +13,7 @@
 		"unicorn-fun": "cli.js"
 	},
 	"engines": {
-		"node": ">=8"
+		"node": ">=10"
 	},
 	"scripts": {
 		"test": "xo && ava"
@@ -28,12 +28,12 @@
 		"fun"
 	],
 	"dependencies": {
-		"meow": "^5.0.0",
+		"meow": "^8.0.0",
 		"unicorn-fun": "^0.0.0"
 	},
 	"devDependencies": {
-		"ava": "^2.1.0",
-		"execa": "^2.0.0",
-		"xo": "^0.24.0"
+		"ava": "^2.4.0",
+		"execa": "^5.0.0",
+		"xo": "^0.37.0"
 	}
 }

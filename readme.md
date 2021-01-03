@@ -25,18 +25,15 @@ There's also a [Yeoman generator](https://github.com/sindresorhus/generator-nm).
 
 ---
 
-
 # unicorn-fun-cli
 
 > My awesome command-line tool
-
 
 ## Install
 
 ```
 $ npm install --global unicorn-fun-cli
 ```
-
 
 ## Usage
 
