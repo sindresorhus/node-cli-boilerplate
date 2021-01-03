@@ -26,7 +26,7 @@ There's also a [Yeoman generator](https://github.com/sindresorhus/generator-nm).
 ---
 
 
-# unicorn-fun-cli [![Build Status](https://travis-ci.org/YOUR-GITHUB-USERNAME/unicorn-fun-cli.svg?branch=master)](https://travis-ci.org/YOUR-GITHUB-USERNAME/unicorn-fun-cli)
+# unicorn-fun-cli
 
 > My awesome command-line tool
 
