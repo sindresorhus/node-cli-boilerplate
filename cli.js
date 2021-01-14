@@ -1,7 +1,6 @@
 #!/usr/bin/env node
-'use strict';
-const meow = require('meow');
-const unicornFun = require('unicorn-fun');
+import meow from 'meow';
+import unicornFun from 'unicorn-fun';
 
 const cli = meow(`
 	Usage

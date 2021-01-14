@@ -9,11 +9,12 @@
 		"email": "YOUR EMAIL",
 		"url": "YOUR WEBSITE"
 	},
+	"type": "module",
 	"bin": {
 		"unicorn-fun": "cli.js"
 	},
 	"engines": {
-		"node": ">=10"
+		"node": ">=12"
 	},
 	"scripts": {
 		"test": "xo && ava"
@@ -28,11 +29,11 @@
 		"fun"
 	],
 	"dependencies": {
-		"meow": "^8.0.0",
+		"meow": "^9.0.0",
 		"unicorn-fun": "^0.0.0"
 	},
 	"devDependencies": {
-		"ava": "^2.4.0",
+		"ava": "^3.15.0",
 		"execa": "^5.0.0",
 		"xo": "^0.37.0"
 	}
