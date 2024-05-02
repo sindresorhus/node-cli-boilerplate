@@ -15,12 +15,13 @@ const cli = meow(`
 	  $ cli-name ponies
 	  ponies & rainbows
 `, {
+	importMeta: import.meta,
 	flags: {
 		postfix: {
 			type: 'string',
-			default: 'rainbows'
-		}
-	}
+			default: 'rainbows',
+		},
+	},
 });
 
-console.log(moduleName(cli.input[0] || 'unicorns', cli.flags));
+console.log(unicornFun(cli.input[0] ?? 'unicorns', cli.flags));

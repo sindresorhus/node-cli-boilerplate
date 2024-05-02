@@ -12,12 +12,9 @@ Also check out [`node-module-boilerplate`](https://github.com/sindresorhus/node-
 
 Alternatively, create a new directory and then run:
 
+```sh
+curl -fsSL https://github.com/sindresorhus/node-cli-boilerplate/archive/main.tar.gz | tar -xz --strip-components=1
 ```
-$ curl -fsSL https://github.com/sindresorhus/node-cli-boilerplate/archive/main.tar.gz | tar -xz --strip-components=1
-```
-
-There's also a [Yeoman generator](https://github.com/sindresorhus/generator-nm).
-
 
 ---
 
@@ -31,8 +28,8 @@ There's also a [Yeoman generator](https://github.com/sindresorhus/generator-nm).
 
 ## Install
 
-```
-$ npm install --global unicorn-fun-cli
+```sh
+npm install --global unicorn-fun-cli
 ```
 
 ## Usage
